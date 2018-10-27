@@ -1,25 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import paymentData from './paymentData';
+import ClientInfo from './components/ClientInfo/index';
+
 class App extends Component {
+
+  state = {
+    paymentData: [paymentData]
+  }
+
   render() {
     return (
-      <div className="App">
+      <div className="App bg-white container">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <div className="app-header-content row">
+            <img className="paymerang_logo img-fluid" src='/images/paymerang_logo.png' alt="paymerang_logo" />
+          </div>
+          <div className="app-header-content row">
+            <span className="paymerang-description col-xs-12 col-lg-12">Payee/Payment/Remittance Information</span>
+          </div>
+          <hr />
         </header>
+        <div className="app-body row">
+          This is a test
+          <ClientInfo paymentData={this.state.paymentData} />
+        </div>
       </div>
     );
   }
