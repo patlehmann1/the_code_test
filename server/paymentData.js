@@ -760,4 +760,4 @@ const paymentData = [
     }
 ];
 
-export default paymentData;
+module.exports = paymentData;
