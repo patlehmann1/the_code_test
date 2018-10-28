@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App bg-white container">
         <header className="App-header">
           <div className="app-header-content row">
-            <img className="paymerang_logo img-fluid" src='/images/paymerang_logo.png' alt="paymerang_logo" />
+            <img className="paymerang_logo img-fluid" src={require('./paymerang_logo.png')} alt="paymerang_logo" />
           </div>
           <div className="app-header-content row">
             <span className="paymerang-description col-xs-12 col-lg-12">Internal Payee/Payment/Remittance Information</span>
