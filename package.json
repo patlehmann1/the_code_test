@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://patlehmann1.github.io/the_code_test",
   "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
     "gh-pages": "^2.0.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",

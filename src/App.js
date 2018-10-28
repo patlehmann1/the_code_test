@@ -1,8 +1,24 @@
 import React, { Component } from 'react';
 import './App.css';
+import axios from 'axios';
 import ClientInfo from './components/ClientInfo/index';
+import paymerangLogo from './paymerang_logo.png';
 
 class App extends Component {
+  state = {
+    paymentData: []
+  }
+
+  getPaymentData = () => {
+    axios.get('/data')
+      .then(res => res.data)
+      .then(paymentData => this.setState({ paymentData }));
+  }
+
+  componentDidMount() {
+    this.getPaymentData();
+  }
+
 
   render() {
     return (
@@ -16,7 +32,7 @@ class App extends Component {
           </div>
         </header>
         <div className="app-body">
-          <ClientInfo />
+          <ClientInfo paymentData={this.state.paymentData} />
         </div>
       </div>
     );
