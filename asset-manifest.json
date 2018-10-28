@@ -1,14 +1,14 @@
 {
-  "main.css": "/the_code_test/static/css/main.04e66737.chunk.css",
-  "main.js": "/the_code_test/static/js/main.b0a097d2.chunk.js",
-  "main.js.map": "/the_code_test/static/js/main.b0a097d2.chunk.js.map",
+  "main.css": "/the_code_test/static/css/main.5460cb43.chunk.css",
+  "main.js": "/the_code_test/static/js/main.16d50a4c.chunk.js",
+  "main.js.map": "/the_code_test/static/js/main.16d50a4c.chunk.js.map",
   "static/js/1.37f90d57.chunk.js": "/the_code_test/static/js/1.37f90d57.chunk.js",
   "static/js/1.37f90d57.chunk.js.map": "/the_code_test/static/js/1.37f90d57.chunk.js.map",
   "runtime~main.js": "/the_code_test/static/js/runtime~main.26c7ceef.js",
   "runtime~main.js.map": "/the_code_test/static/js/runtime~main.26c7ceef.js.map",
   "static/media/paymerang_logo.png": "/the_code_test/static/media/paymerang_logo.55033858.png",
-  "static/css/main.04e66737.chunk.css.map": "/the_code_test/static/css/main.04e66737.chunk.css.map",
+  "static/css/main.5460cb43.chunk.css.map": "/the_code_test/static/css/main.5460cb43.chunk.css.map",
   "index.html": "/the_code_test/index.html",
-  "precache-manifest.1ed962b7904372a63ed12692a1a7296d.js": "/the_code_test/precache-manifest.1ed962b7904372a63ed12692a1a7296d.js",
+  "precache-manifest.d21b897198ac48950eba889fadeb88cb.js": "/the_code_test/precache-manifest.d21b897198ac48950eba889fadeb88cb.js",
   "service-worker.js": "/the_code_test/service-worker.js"
 }
