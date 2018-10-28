@@ -90,7 +90,7 @@ const ClientInfo = props => {
                                     Description: 
                                 </p>
                                 <p className="list-group-item">
-                                    Payor Name: {remitData.Description}
+                                    {remitData.Description}
                                 </p>
                                 <p className="list-group-heading">
                                     Amount: 
