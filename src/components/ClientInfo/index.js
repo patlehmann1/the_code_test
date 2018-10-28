@@ -11,50 +11,50 @@ const ClientInfo = props => {
                             <h2 className="payee_info"><i className="fas fa-user"></i>
                                 Payee Information</h2>
                             <hr />
-                            <p className="list-group-heading">
+                            <p className="group-heading">
                                 Company Name:
                             </p>
-                            <p className="list-group-item">
+                            <p className="group-item">
                                 {data.Payee.Name}
                             </p>
-                            <p className="list-group-heading">
+                            <p className="group-heading">
                                 Contact Information:
                             </p>
-                            <p className="list-group-item">
+                            <p className="group-item">
                                 Fax #: {data.Payee.Fax}
                             </p>
-                            <p className="list-group-item">
+                            <p className="group-item">
                                 Telephone #: {data.Payee.Phone}
                             </p>
-                            <p className="list-group-heading">
+                            <p className="group-heading">
                                 Mailing Address:
                             </p>
-                            <p className="list-group-item">
+                            <p className="group-item">
                                 {data.Payee.Address.Address1}
                             </p>
-                            <p className="list-group-item">
+                            <p className="group-item">
                                 {data.Payee.Address.City}, {data.Payee.Address.StateOrProvince}, {data.Payee.Address.Country}
                             </p>
                         </div>
                         <div className="list-column col-lg-6 col-xs-12">
                             <h2 className="payee_info"><i className="fas fa-credit-card"></i> Payment Information</h2>
                             <hr />
-                            <p className="list-group-heading">
+                            <p className="group-heading">
                                 PAN #: 
                             </p>
-                            <p className="list-group-item">
+                            <p className="group-item">
                                 {data.Payment.PAN}
                             </p>
-                            <p className="list-group-heading">
+                            <p className="group-heading">
                                 CVV #: 
                             </p>
-                            <p className="list-group-item">
+                            <p className="group-item">
                                 {data.Payment.CVV} 
                             </p>
-                            <p className="list-group-heading">
+                            <p className="group-heading">
                                 Expiration Date: 
                             </p>
-                            <p className="list-group-item">
+                            <p className="group-item">
                                 {data.Payment.Exp}
                             </p>
                         </div>
@@ -68,34 +68,34 @@ const ClientInfo = props => {
                         {data.Remittance.map((remitData, index) => (
                             <div className="col-lg-12 col-sm-12" key={index}>
                                 <hr />
-                                <p className="list-group-heading">
+                                <p className="group-heading">
                                     Payor Name:
                                 </p>
-                                <p className="list-group-item">
+                                <p className="group-item">
                                     {remitData.PayorName}
                                 </p>
-                                <p className="list-group-heading">
+                                <p className="group-heading">
                                     Payor ID #: 
                                 </p>
-                                <p className="list-group-item">
+                                <p className="group-item">
                                     {remitData.PayorId}
                                 </p>
-                                <p className="list-group-heading">
+                                <p className="group-heading">
                                     Invoice #: 
                                 </p>
-                                <p className="list-group-item">
+                                <p className="group-item">
                                     {remitData.InvoiceNo}
                                 </p>
-                                <p className="list-group-heading">
+                                <p className="group-heading">
                                     Description: 
                                 </p>
-                                <p className="list-group-item">
+                                <p className="group-item">
                                     {remitData.Description}
                                 </p>
-                                <p className="list-group-heading">
+                                <p className="group-heading">
                                     Amount: 
                                 </p>
-                                <p className="list-group-item">
+                                <p className="group-item">
                                     {remitData.Amount}
                                 </p>
                             </div>
