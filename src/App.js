@@ -14,15 +14,14 @@ class App extends Component {
     return (
       <div className="App bg-white container">
         <header className="App-header">
-          <div className="app-header-content row">
+          <div className="app-header-content">
             <img className="paymerang_logo img-fluid" src={require('./paymerang_logo.png')} alt="paymerang_logo" />
           </div>
           <div className="app-header-content row">
             <span className="paymerang-description col-xs-12 col-lg-12">Internal Payee/Payment/Remittance Information</span>
           </div>
-          <hr />
         </header>
-        <div className="app-body row">
+        <div className="app-body">
           <ClientInfo paymentData={this.state.paymentData} />
         </div>
       </div>

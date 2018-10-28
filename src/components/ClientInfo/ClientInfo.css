@@ -1,10 +1,17 @@
 .payee_info {
+    position: relative;
     color:#cb4197;
+}
+
+.data-wrapper {
+    margin: 0 auto;
+    text-align: center !important;
 }
 
 .list-results {
     border: 2px solid #2f5d75;
     margin: 5px;
+    margin-top: 10px;
 }
 
 .list-group-heading {
@@ -12,6 +19,6 @@
     text-align: center;
 }
 
-.remit_info {
-    overflow: scroll;
+.list-column {
+    
 }
