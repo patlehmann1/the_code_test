@@ -7,7 +7,7 @@ import ClientInfo from './components/ClientInfo/index';
 class App extends Component {
 
   state = {
-    paymentData: [paymentData]
+    paymentData: paymentData
   }
 
   render() {
@@ -18,12 +18,11 @@ class App extends Component {
             <img className="paymerang_logo img-fluid" src='/images/paymerang_logo.png' alt="paymerang_logo" />
           </div>
           <div className="app-header-content row">
-            <span className="paymerang-description col-xs-12 col-lg-12">Payee/Payment/Remittance Information</span>
+            <span className="paymerang-description col-xs-12 col-lg-12">Internal Payee/Payment/Remittance Information</span>
           </div>
           <hr />
         </header>
         <div className="app-body row">
-          This is a test
           <ClientInfo paymentData={this.state.paymentData} />
         </div>
       </div>

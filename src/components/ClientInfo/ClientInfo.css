@@ -1,0 +1,17 @@
+.payee_info {
+    color:#cb4197;
+}
+
+.list-results {
+    border: 2px solid #2f5d75;
+    margin: 5px;
+}
+
+.list-group-heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.remit_info {
+    overflow: scroll;
+}
