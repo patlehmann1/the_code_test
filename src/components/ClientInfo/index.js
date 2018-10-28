@@ -1,10 +1,11 @@
 import React from 'react';
+import paymentData from '../../paymentData';
 import './ClientInfo.css';
 
-const ClientInfo = props => {
+const ClientInfo = () => {
     return (
         <div className="data-wrapper">
-            {props.paymentData.map((data, index) => (
+            {paymentData.map((data, index) => (
                 <div className="list-results text-dark" key={index}>
                     <div className="list-column row">
                         <div className="col-lg-6 col-sm-12">

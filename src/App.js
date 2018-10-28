@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-
-import paymentData from './paymentData';
 import ClientInfo from './components/ClientInfo/index';
 
 class App extends Component {
-
-  state = {
-    paymentData: paymentData
-  }
 
   render() {
     return (
@@ -22,7 +16,7 @@ class App extends Component {
           </div>
         </header>
         <div className="app-body">
-          <ClientInfo paymentData={this.state.paymentData} />
+          <ClientInfo />
         </div>
       </div>
     );
