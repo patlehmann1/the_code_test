@@ -68,20 +68,35 @@ const ClientInfo = props => {
                         {data.Remittance.map((remitData, index) => (
                             <div className="col-lg-12 col-sm-12" key={index}>
                                 <hr />
-                                <p className="list-group-item">
-                                    Payor Name: {remitData.PayorName}
+                                <p className="list-group-heading">
+                                    Payor Name:
                                 </p>
                                 <p className="list-group-item">
-                                    Payor ID #: {remitData.PayorId}
+                                    {remitData.PayorName}
+                                </p>
+                                <p className="list-group-heading">
+                                    Payor ID #: 
                                 </p>
                                 <p className="list-group-item">
-                                    Invoice #: {remitData.InvoiceNo}
+                                    {remitData.PayorId}
+                                </p>
+                                <p className="list-group-heading">
+                                    Invoice #: 
                                 </p>
                                 <p className="list-group-item">
-                                    Description: {remitData.Description}
+                                    {remitData.InvoiceNo}
+                                </p>
+                                <p className="list-group-heading">
+                                    Description: 
                                 </p>
                                 <p className="list-group-item">
-                                    Amount: {remitData.Amount}
+                                    Payor Name: {remitData.Description}
+                                </p>
+                                <p className="list-group-heading">
+                                    Amount: 
+                                </p>
+                                <p className="list-group-item">
+                                    {remitData.Amount}
                                 </p>
                             </div>
                         ))}
