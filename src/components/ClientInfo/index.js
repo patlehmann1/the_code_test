@@ -17,24 +17,18 @@ const ClientInfo = props => {
                                     <hr />
                                     <p className="group-heading">Company Name:</p>
                                     <p className="group-item">{data.Payee.Name}</p>
-                                    <p className="group-heading">
-                                        Contact Information:
-                            </p>
+                                    <p className="group-heading">Contact Information:</p>
+                                    <p className="group-item">Fax #: {data.Payee.Fax}</p>
+                                    <p className="group-item">Telephone #: {data.Payee.Phone}</p>
+                                    <p className="group-heading">Mailing Address:</p>
+                                    <p className="group-item">{data.Payee.Address.Address1}</p>
                                     <p className="group-item">
-                                        Fax #: {data.Payee.Fax}
+                                    {data.Payee.Address.City}, {data.Payee.Address.StateOrProvince}, {data.Payee.Address.Country}
                                     </p>
-                                    <p className="group-item">
-                                        Telephone #: {data.Payee.Phone}
-                                    </p>
-                                    <p className="group-heading">
-                                        Mailing Address:
-                            </p>
-                                    <p className="group-item">
-                                        {data.Payee.Address.Address1}
-                                    </p>
-                                    <p className="group-item">
-                                        {data.Payee.Address.City}, {data.Payee.Address.StateOrProvince}, {data.Payee.Address.Country}
-                                    </p>
+                                    <p className="group-heading">Attention:</p>
+                                    <p className="group-item">{data.Payee.Attention}</p>
+                                    <p className="group-heading">Date Added:</p>
+                                    <p className="group-item">{data.Payee.SubmissionDate}</p>
                                 </div>
                                 <div className="list-column col-lg-6 col-xs-12">
                                     <h2 className="payee_info"><i className="fas fa-credit-card"></i> Payment Information</h2>

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
 import ClientInfo from './components/ClientInfo/index';
-import paymerangLogo from './paymerang_logo.png';
 
 class App extends Component {
   state = {
